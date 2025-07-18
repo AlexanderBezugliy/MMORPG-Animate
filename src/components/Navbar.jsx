@@ -18,7 +18,7 @@ const mobileMenuVariants = {
 
 const navItems = ["Home", "Features", "Story", "About", "Contact"];
 
-const NavBar = () => {
+const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const navContainerRef = useRef(null);
@@ -135,4 +135,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Navbar;
